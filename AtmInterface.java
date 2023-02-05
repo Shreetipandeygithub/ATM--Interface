@@ -128,7 +128,7 @@ public class AtmInterface{
                 int choice=sc1.nextInt();
                 if(choice==1){
                     bank.Login();
-                        System.out.println("1. withdraw  2.deposit  3.transfer   4.transaction history");
+                        System.out.println("1. withdraw  2.deposit  3.transfer ");
                         System.out.println("Enter the choice");
                         Scanner sc2=new Scanner(System.in);
                         int ch=sc2.nextInt();
